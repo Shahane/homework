@@ -1,0 +1,313 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+
+
+.logo {
+  font-weight: bold;
+  color:white;
+  font-size:35px;
+  font-weight:bold;
+}
+
+#header {
+  padding-top: 35px;
+  width:1200px;
+  height:122px;
+  display:block;
+  background-color:#033048;
+  clear:both;
+  float:center;
+  
+}
+
+#nav_box {
+
+  font-size: 20px;
+  color:#f9e42e;
+  padding-right:75px;
+
+}
+
+#header ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+#header li {
+
+  float: left;
+}
+
+#header li a {
+    display: block;
+    color: #f9e42e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+
+#logo {
+  float: left;
+  font-size:35px;
+  font-weight:bold;
+  padding-left:120px;
+  float:left;
+}
+
+#nav_box {
+  word-spacing: 40px;
+  float: right;
+  color: white;
+
+}
+
+#container{
+  font-style: 'Open+Sans';
+
+  float:left;
+  height:auto;
+  width: 1200px;
+  background-color: #efefee;
+ margin-bottom:  50px;
+
+}
+
+#container_left{
+  padding-left: 120px;
+  padding-right: 20px;
+  padding-top: 88px;
+  height: auto;
+  width: 835px;
+  float: left;
+ 
+}
+
+#container_left h1{
+  font-size: 48px;
+  padding-bottom: 28px;
+  line-height: 1em;
+  }
+
+  #container_left p{
+  text-indent: 50px;
+  color: #606061;
+  font-size: 18px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  line-height: 1.5em;
+  }
+
+  #container_left span{
+
+  font-size: 38px;
+  font-weight: bold;
+  }
+
+#Newsbox_1 {
+display: box;
+border-bottom: solid;
+padding-bottom: 80px;
+
+}
+
+
+  #Newsbox_2 h1{
+    padding-top: 30px;
+
+   
+
+
+  }
+
+   #Newsbox_2 {
+   display: box;
+   border-bottom: solid; 
+   padding-bottom: 80px;
+
+
+}
+
+
+  .Read_More_btn {
+     color: #606061;
+    float: right;
+    font-size:  18px;
+    font-weight: bold;
+
+  }
+
+
+
+  
+
+#container_right{
+
+  padding-left: 10px;
+  padding-top: 88px;
+  height: auto;
+  width: 365px;
+  float: right;
+ 
+  
+}
+
+#container_right ul{
+  font-size: 18px;
+    line-height: 2em;
+
+}
+
+
+#Categories{
+  padding-bottom: 50px;
+}
+
+
+
+#AboutRelaxr ul li span {
+  font-weight: bold;
+}
+
+#container_right img {
+  margin-top: 50px;
+}
+
+.heading {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+#SignUpNow_box{
+  height:150px;
+  display:block;
+  background-color: #f9e42e; 
+ 
+  margin-top: 1900px;
+}
+
+
+
+#SignUpNow_box button{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 150px;
+  background-color: #033048;
+  color:white; 
+  border: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  align-content:center;
+  float: center;
+  position:center;
+  margin-left: 550px;
+  margin-top: 55px;
+
+  
+
+}
+
+#footer {
+ padding-top: 85px;
+  display:block;
+  height:345px;
+  background-color: #121111;
+ padding-left: 550px;
+}
+
+#footer  p{
+  color: white;
+  float: center;
+  clear:both;
+}
+
+#footer h1 {
+  color: #f9e431;
+  padding-bottom: 30px;
+}
+
+#footer p {
+  padding-top: 30px;
+  color: #efeff0;
+}
+
+#footer img {
+margin-left: 17px;
+}
+
+
+footer {
+
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
