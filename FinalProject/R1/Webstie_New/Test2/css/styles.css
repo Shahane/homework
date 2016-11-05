@@ -1,0 +1,10 @@
+#img1{
+  background:url("../images/square01.jpg") no-repeat center center;
+  direction: block;
+  border: solid red;
+  max-height: 150px;
+max-width: 200px;
+width: 120px;
+height: 120px;
+ 
+}
