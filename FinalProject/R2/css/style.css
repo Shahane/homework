@@ -1,0 +1,104 @@
+body {
+    padding-top: 70px;
+    font-family:'Quicksand' , serif;
+    font-style: normal;
+    font-size: 15px;
+    align-content: center;
+
+}
+
+.container-fluid {
+
+
+}
+
+
+
+.title{
+font-size: 20px;
+
+}
+#softwareList{
+  align-content: center;
+  height: auto;
+  background-color: black;
+  border: 1px solid;
+  color: white;
+
+}
+
+.navbar {
+  height: 5px;
+  background: black;
+  font-size: 20px;
+  color: white;
+  padding-bottom: -50px;
+}
+
+.navbar-toggle {
+  margin-top: -32px;
+
+  background: white;
+}
+.sr-only {
+  background: red;
+}
+
+#logo {
+  align-content: left;
+  margin-top: 4px;
+  margin-left: 22px;
+
+}
+
+.videoWrapper {
+	
+  position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 0px;
+	height: 0;
+  overflow: hidden;
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  overflow: hidden;
+}
+
+.images {
+  float:left;
+  align-content: relative;
+  display: block;
+
+}
+
+.row.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width:767px) {
+	#images div{padding:75% 0 0}	
+}
+
+
+
