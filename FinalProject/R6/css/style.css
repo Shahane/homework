@@ -1,0 +1,169 @@
+body {
+    padding-top: 70px;
+    font-family:'Quicksand' , serif;
+    font-style: normal;
+    font-size: 15px;
+    align-content: center;
+
+}
+
+#imageGallery{
+  margin-top: 100px;
+  
+  margin-bottom: 150px;
+ 
+
+
+}
+
+#contact{
+   
+    
+}
+
+#about {
+  margin-bottom: 150px;
+    
+
+}
+
+#reel {
+  margin-bottom: 150px;
+    
+
+}
+
+.slider-video {
+  visibility: visible;
+  width: 100%;
+
+
+}
+
+.panel-primary{
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+#send{
+  background-color: black;
+}
+
+.form-control{
+  background-color: black;
+}
+
+.title{
+font-size: 20px;
+
+}
+#softwareList{
+  align-content: left;
+  height: 334px;
+  background-color: black;
+  border: 1px solid;
+  color: white;
+  padding-left: 30px;
+
+}
+
+.navbar {
+  height: 5px;
+  background: black;
+  font-size: 20px;
+  color: white;
+  padding-bottom: -50px;
+}
+
+.navbar-toggle {
+  margin-top: -32px;
+
+  background: white;
+}
+.sr-only {
+  background: red;
+}
+
+#logo {
+  align-content: left;
+  margin-top: 4px;
+  margin-left: 22px;
+
+}
+
+.videoWrapper {
+	
+  position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 0px;
+	height: 0;
+  overflow: hidden;
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  overflow: hidden;
+}
+
+.images {
+  float:left;
+  align-content: relative;
+  display: block;
+
+}
+
+.row.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width:767px) {
+	#images div{padding:75% 0 0}	
+}
+
+
+/* video galley */
+.swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
