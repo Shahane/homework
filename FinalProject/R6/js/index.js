@@ -1,4 +1,6 @@
  
+ $('#lab_video_slider').hide();
+
  var swiper = new Swiper('.swiper-container', {
         loop: true,
         pagination: '.swiper-pagination',
@@ -7,8 +9,13 @@
         prevButton: '.swiper-button-prev'
     });
 
-
-
+$('#portfolioLin').click(function(){
+    
+});
+$('#aboutLink').click(function(){
+    console.log("Hi there");
+    $('#softwareList').addClass('animated bounceInRight');
+})
 // video  gallery 
 
 /*
